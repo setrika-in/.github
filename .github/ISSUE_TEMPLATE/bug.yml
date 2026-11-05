@@ -1,0 +1,26 @@
+name: Bug
+description: Laporkan sesuatu yang tidak berjalan semestinya
+labels: [bug]
+body:
+  - type: textarea
+    id: terjadi
+    attributes:
+      label: Apa yang terjadi
+    validations:
+      required: true
+  - type: textarea
+    id: langkah
+    attributes:
+      label: Langkah untuk mengulang
+      placeholder: "1. ...\n2. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: harusnya
+    attributes:
+      label: Yang diharapkan
+  - type: input
+    id: lingkungan
+    attributes:
+      label: Lingkungan
+      description: Perangkat, browser, atau versi

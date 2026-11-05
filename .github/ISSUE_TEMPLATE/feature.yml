@@ -1,0 +1,21 @@
+name: Fitur
+description: Usulkan fitur atau perbaikan
+labels: [enhancement]
+body:
+  - type: textarea
+    id: masalah
+    attributes:
+      label: Masalah yang ingin diselesaikan
+      description: Siapa yang kesulitan (owner, staf, pelanggan) dan di bagian mana
+    validations:
+      required: true
+  - type: textarea
+    id: usulan
+    attributes:
+      label: Usulan
+    validations:
+      required: true
+  - type: textarea
+    id: alternatif
+    attributes:
+      label: Alternatif yang dipertimbangkan
